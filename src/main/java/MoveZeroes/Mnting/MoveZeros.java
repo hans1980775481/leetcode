@@ -4,7 +4,7 @@
  *
  * [283] 移动零
  */
-class Solution {
+public class MoveZeros {
     public void moveZeroes(int[] nums) {
         int insertPos = 0;
         for(int num:nums){

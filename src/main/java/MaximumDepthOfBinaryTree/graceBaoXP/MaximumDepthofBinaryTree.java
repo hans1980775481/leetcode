@@ -28,7 +28,7 @@ public class MaximumDepthofBinaryTree {
         }
 
         int num=0;
-        LinkedList<TreeNode> linkedList=new LinkedList<>();
+        LinkedList<TreeNode> linkedList=new LinkedList();
         linkedList.add(root);
         while (!linkedList.isEmpty()){
             int size=linkedList.size();
