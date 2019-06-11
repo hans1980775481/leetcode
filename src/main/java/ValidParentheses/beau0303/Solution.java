@@ -34,11 +34,4 @@ public class Solution {
             return true;
         else return false;
     }
-
-    public static void main(String[] args) {
-
-
-        boolean valid = isValid("()()()()");
-        System.out.println(valid);
-    }
 }
