@@ -1,5 +1,7 @@
 package InvertBinaryTree.LiuMinghao;
 
+import javax.xml.transform.Result;
+
 public class InvertBinaryTree {
 
     public TreeNode InvertBinaryTree(TreeNode treeNode) {
@@ -11,6 +13,7 @@ public class InvertBinaryTree {
 
     public void reversalTree(TreeNode treeNode) {
         if (treeNode != null) {
+
             reversalTree(treeNode.left);
             reversalTree(treeNode.right);
             TreeNode temp;
@@ -20,16 +23,6 @@ public class InvertBinaryTree {
         }
     }
 
-
 }
 
 // Definition for a binary tree node.
- class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}
