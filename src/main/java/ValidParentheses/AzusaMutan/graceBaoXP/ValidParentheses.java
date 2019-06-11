@@ -6,7 +6,7 @@ import java.util.Stack;
 public class ValidParentheses {
 
     public boolean checkValidString(String s) {
-        Stack<Character> stack = new Stack<>();
+        Stack<Character> stack = new Stack<Character>();
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '(') {
                 stack.push('(');
@@ -28,11 +28,12 @@ public class ValidParentheses {
                 }
             }
         }
-        if (stack.isEmpty()) {
+        return stack.isEmpty();
+        /*if (stack.isEmpty()) {
             return true;
         }else{
             return false;
-        }
+        }*/
 
     }
 }
