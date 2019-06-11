@@ -1,4 +1,4 @@
-﻿package MoveZeroes.Mnting;
+package MoveZeroes.Mnting;
 /*
  * @lc app=leetcode.cn id=283 lang=java
  *
