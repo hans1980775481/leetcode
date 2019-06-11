@@ -10,7 +10,7 @@ import java.util.List;
 public class GenerateParentheses {
 
     public List<String> generateParenthesis(int n) {
-        List<String> list=new ArrayList<>();
+        List<String> list=new ArrayList<String>();
         String s="";
         parenthesis((ArrayList<String>) list,s,n,n);
         return list;
