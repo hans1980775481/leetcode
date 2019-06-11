@@ -1,9 +1,10 @@
+package GenerateParentheses.AzusaMutan;
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class GenerateParentheses {
         public List<String> generateParenthesis(int n) {
-            List<String> ans = new ArrayList<>();
+            List<String> ans = new ArrayList<String>();
             StringBuilder sb = new StringBuilder("(");
             return f(ans,sb,n,1,0);
         }

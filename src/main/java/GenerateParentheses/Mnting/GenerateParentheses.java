@@ -7,7 +7,7 @@
  * [22] 括号生成
  */
 import java.util.*;
-class Solution {
+class GenerateParentheses {
     public List<String> generateParenthesis(int n) {
         List<String> list = new ArrayList<String>();
         backtracking(list, 0, 0, "",n);
