@@ -38,22 +38,40 @@ public class SymmetricTree {
         return true;
     }
 
+
+    //递归算法 求镜像树
+
+    public boolean isSymmetric2(TreeNode left,TreeNode right){
+
+        if(left == null && right == null){
+            return true;
+        }else if(left !=null&&left !=null ){
+            if(left.val != right.val){
+                return false;
+            }else if(left.val == right.val){
+                return isSymmetric2(left.left,right.right)&&isSymmetric2(left.right,right.left);
+            }
+        }
+        return false;
+    }
     public static void main(String[] args) {
         SymmetricTree symmetricTree = new SymmetricTree();
         TreeNode t = new TreeNode(1);
         TreeNode t2_1 = new TreeNode(2);
         TreeNode t2_2 = new TreeNode(2);
+
         TreeNode t3_1 = new TreeNode(3);
         TreeNode t3_2 = new TreeNode(2);
         TreeNode t3_3 = new TreeNode(2);
         TreeNode t3_4 = new TreeNode(3);
+
         TreeNode t4_1 = new TreeNode(4);
-        TreeNode t4_2 = new TreeNode(4);
-        TreeNode t4_3 = new TreeNode(4);
-        TreeNode t4_4 = new TreeNode(4);
-        TreeNode t4_5 = new TreeNode(4);
-        TreeNode t4_6 = new TreeNode(4);
-        TreeNode t4_7 = new TreeNode(4);
+        TreeNode t4_2 = new TreeNode(3);
+        TreeNode t4_3 = new TreeNode(2);
+        TreeNode t4_4 = new TreeNode(1);
+        TreeNode t4_5 = new TreeNode(1);
+        TreeNode t4_6 = new TreeNode(2);
+        TreeNode t4_7 = new TreeNode(3);
         TreeNode t4_8 = new TreeNode(4);
         t.left=t2_1;
         t.right=t2_2;
@@ -65,14 +83,14 @@ public class SymmetricTree {
         t3_1.left=t4_1;
         t3_1.right=t4_2;
 
-        t3_2.left=t4_3;
+//        t3_2.left=t4_3;
         t3_2.right=t4_4;
 
         t3_3.left=t4_5;
-        t3_3.right=t4_6;
+//        t3_3.right=t4_6;
 
         t3_4.left=t4_7;
         t3_4.right=t4_8;
-        System.out.println(symmetricTree.isSymmetric(t));
+        System.out.println(symmetricTree.isSymmetric2(t.left,t.right));
     }
 }
