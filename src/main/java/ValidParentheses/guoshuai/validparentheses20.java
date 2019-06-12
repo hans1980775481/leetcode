@@ -15,7 +15,7 @@ public class validparentheses20 {
         if(s.length()==0){
             return true;
         }
-        Stack<Character> stack = new Stack<>();
+        Stack<Character> stack = new Stack();
         for(int i=0; i<s.length(); i++){
             if(s.charAt(i)=='('||s.charAt(i)=='{'||s.charAt(i)=='['){
                 stack.push(s.charAt(i));
