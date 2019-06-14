@@ -1,3 +1,4 @@
+package RemoveElement.AzusaMutan;
 public class RemoveElement {
     public int removeElement(int[] nums, int val) {
         int res = 0;

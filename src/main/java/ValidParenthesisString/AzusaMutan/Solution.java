@@ -1,6 +1,10 @@
 package ValidParenthesisString.AzusaMutan;
+<<<<<<< HEAD:src/main/java/ValidParenthesisString/AzusaMutan/Solution.java
 
 public class Solution {
+=======
+class Solution {
+>>>>>>> cbaf75ce2787674def6e96636b6a00be0cf7b38e:src/main/java/ValidParenthesisString/AzusaMutan/ValidParenthesisString.java
             public boolean checkValidString(String s) {
                 int n1 = 0;
                 int n2 = 0;

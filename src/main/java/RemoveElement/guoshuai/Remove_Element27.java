@@ -1,4 +1,4 @@
-package test;
+package RemoveElement.guoshuai;
 /*
  * 2019/5/30
  * 27.Remove Element
@@ -6,7 +6,7 @@ package test;
  * 			创建两个变量，一个用来挨个判断传入参数中nums数组的每个值是否等于传入参数中的val，
  * 			另外一个用来当做新数组的下标。
  */
-public class Remove_Element27 {
+class Remove_Element27 {
 	public int removeElement(int[] nums, int val) {
 		int i = 0;
 		for (int j = 0; j < nums.length; j++) {

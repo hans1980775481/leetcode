@@ -6,6 +6,7 @@
  * 遍历过当前节点后，为了回溯到上一步，要去掉已经加入到结果list中 * 的当前节点
  * [22] 括号生成
  */
+package GenerateParentheses.Mnting;
 import java.util.*;
 class GenerateParentheses {
     public List<String> generateParenthesis(int n) {
