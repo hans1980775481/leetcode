@@ -10,7 +10,7 @@ import java.util.LinkedList;
 public class SymmetricTree {
 
     public boolean isSymmetric(TreeNode root) {
-        LinkedList<TreeNode> linkedList=new LinkedList<>();
+        LinkedList<TreeNode> linkedList=new LinkedList<TreeNode>();
         linkedList.add(root);
         linkedList.add(root);
 

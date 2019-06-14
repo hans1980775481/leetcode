@@ -11,7 +11,7 @@ import java.util.List;
  **/
 public class GenerateParenthesis {
     public static List<String> generateParenthesis(int n) {
-        List<String> list = new ArrayList<>();
+        List<String> list = new ArrayList<String>();
         String str = "";
         parenthesis(list,str,n,0);
         return list;

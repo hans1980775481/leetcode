@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class GenerateParentheses {
     public List<String> generateParenthesis(int n) {
-        List<String> result = new ArrayList<>();
+        List<String> result = new ArrayList<String>();
         backtrack(result, "(", 1, 0, n);
         return result;
     }
