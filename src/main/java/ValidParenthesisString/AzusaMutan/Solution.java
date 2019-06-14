@@ -1,4 +1,6 @@
-class Solution {
+package ValidParenthesisString.AzusaMutan;
+
+public class Solution {
             public boolean checkValidString(String s) {
                 int n1 = 0;
                 int n2 = 0;
