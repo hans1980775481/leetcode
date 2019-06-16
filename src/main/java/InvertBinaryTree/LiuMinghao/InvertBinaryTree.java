@@ -26,3 +26,15 @@ public class InvertBinaryTree {
 }
 
 // Definition for a binary tree node.
+<<<<<<< HEAD
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode(int x) {
+        val = x;
+    }
+}
+=======
+>>>>>>> cbaf75ce2787674def6e96636b6a00be0cf7b38e
