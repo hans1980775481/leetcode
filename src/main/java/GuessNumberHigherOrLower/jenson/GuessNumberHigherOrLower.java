@@ -4,7 +4,7 @@ package GuessNumberHigherOrLower.jenson;
  * @author: zhousong
  * @data: 2019/6/17
  */
-public class GuessNumberHigherorLower {
+public class GuessNumberHigherOrLower {
     public int guessNumber(int n) {
         int left = 1;
         int right = n;
