@@ -1,6 +1,6 @@
-package InvertBinaryTree.jiucheng;
+package InvertBinaryTree.Jiucheng;
 
-public class invertTree {
+public class InvertTree {
     public TreeNode invertTree(TreeNode root) {
         if(root==null){
             return null;
