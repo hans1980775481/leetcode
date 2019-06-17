@@ -49,9 +49,6 @@ public class SymmetricTree {
      * 内存消耗 :34.6 MB, 在所有Java提交中击败了89.14%的用户
      */
     public boolean isSymmetric_2(TreeNode root) {
-        if (null == root) {
-            return true;
-        }
         return compare(root, root);
     }
 
