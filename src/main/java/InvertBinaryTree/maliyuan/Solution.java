@@ -1,4 +1,4 @@
-package InvertBinaryTree.mly;
+package InvertBinaryTree.maliyuan;
 
 
 

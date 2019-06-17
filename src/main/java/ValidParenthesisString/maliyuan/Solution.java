@@ -1,4 +1,4 @@
-package ValidParenthesisString.mly;
+package ValidParenthesisString.maliyuan;
 
 public class Solution {
     public boolean checkValidString(String s) {
