@@ -1,7 +1,6 @@
 package MaximumDepthOfBinaryTree.muzimusi;
 
 
-import sun.reflect.generics.tree.Tree;
 
 // Definition for a binary tree node.
 class TreeNode {
