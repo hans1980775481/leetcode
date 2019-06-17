@@ -9,6 +9,8 @@ public class FirstBadVersion {
         int left = 1;
         int right = n;
         while (left < right) {
+
+            // (left + right) / 2 会内存溢出
             int mid = left + (right - left) / 2;
             if (isBadVersion(mid)) {
                 right = mid;
