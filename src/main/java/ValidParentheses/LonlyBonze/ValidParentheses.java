@@ -1,13 +1,19 @@
-class Solution {
+package ValidParentheses.LonlyBonze;
+
+import java.util.Stack;
+
+/**
+ * Created by codedrinker on 2019/6/17.
+ */
+public class ValidParentheses {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
-        for(int i=0;i<s.length();i++){
+        for (int i = 0; i < s.length(); i++) {
             Character c = s.charAt(i);
-            if(c=='('||c=='['||c=='{'){
+            if (c == '(' || c == '[' || c == '{') {
                 stack.add(c);
-            }
-            else {
-                if(stack.size()>0) {
+            } else {
+                if (stack.size() > 0) {
                     switch (c) {
                         case ')':
                             if (stack.pop() != '(')
@@ -22,13 +28,12 @@ class Solution {
                                 return false;
                             break;
                     }
-                }
-                else {
+                } else {
                     return false;
                 }
             }
         }
-        if(stack.size()!=0)
+        if (stack.size() != 0)
             return false;
         return true;
     }

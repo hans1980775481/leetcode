@@ -1,4 +1,9 @@
-class Solution {
+package GenerateParentheses.LonlyBonze;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
     public List<String> generateParenthesis(int n) {
         if(n==0){
             return new ArrayList<>();
