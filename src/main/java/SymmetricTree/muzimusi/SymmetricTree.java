@@ -13,6 +13,13 @@ class TreeNode {
 
 
 public class SymmetricTree {
+    /*******************************************************************
+     *                                                                 *
+     *                          解法1：如下                              *
+     *          翻转任何一个子树：若左右子树一致则原树是镜像树.                 *
+     *                                                                 *
+     *******************************************************************
+     */
     // 翻转任何一个子树：若左右子树一致则原树是镜像树
     public boolean isSymmetric(TreeNode root) {
         if (root == null)
@@ -59,5 +66,42 @@ public class SymmetricTree {
         if (root == null)
             return null;
         return inTravel(root.left) + root.val + inTravel(root.right);
+    }
+
+
+    /*******************************************************************
+     *                                                                 *
+     *                          解法2：递归                              *
+     *                                                                 *
+     *******************************************************************
+     */
+
+    // 解法2 递归
+    //   z         z       N        N
+    //  /\  <->   /\          <->
+    // x y       y x
+    public boolean isSymmetric02(TreeNode root) {
+        return judgeSymmetric(root, root);
+    }
+
+    private boolean judgeSymmetric(TreeNode root1, TreeNode root2) {
+        if (root1 == null && root2 == null)
+            return true;
+        else if (root1 != null && root2 != null && root1.val == root2.val)
+            return judgeSymmetric(root1.left, root2.right)
+                    && judgeSymmetric(root1.right, root2.left);
+        else return false;
+    }
+
+    public static void main(String[] args) {
+        SymmetricTree symmetricTree = new SymmetricTree();
+        TreeNode node1 = new TreeNode(1);
+        TreeNode node2 = new TreeNode(2);
+        TreeNode node3 = new TreeNode(3);
+        node1.left = node2;
+        node1.right = node3;
+        //boolean result = symmetricTree.isSymmetric(node1);
+        boolean result = symmetricTree.isSymmetric02(node1);
+        System.out.println(result);
     }
 }
