@@ -26,7 +26,7 @@ public class FirstBadVersion extends VersionControl {
         return left;
     }
 
-    public static void main(String[] args) {
+       public static void main(String[] args) {
         FirstBadVersion firstBadVersion = new FirstBadVersion();
         int i = firstBadVersion.firstBadVersion(2126753390);
         System.out.println(i);
