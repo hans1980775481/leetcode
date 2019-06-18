@@ -39,12 +39,12 @@ public class Solution extends VersionControl {
      * @param n
      * @return
      */
-    public int secondBadVersion(int n){
+    public int secondBadVersion(int n) {
         int left = 1;
         int right = n;
-        while (left <= right){
-            int mid = (right - left) / 2 + left;
-            if (isBadVersion(mid)){
+        while(left < right){
+            int mid =  left + (right - left) / 2;
+            if(isBadVersion(mid)){
                 right = mid;
             }else{
                 left = mid + 1;
