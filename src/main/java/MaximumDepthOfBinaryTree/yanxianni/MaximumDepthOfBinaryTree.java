@@ -1,12 +1,13 @@
+package MaximumDepthOfBinaryTree.yanxianni;
 
 public class MaximumDepthOfBinaryTree {
 	public int maxDepth(TreeNode root) {
 		if (root == null) {
 			return 0;
 		}
-		//×ó×ÓÊ÷
+		//å·¦å­æ ‘
 		int leftDepth = maxDepth(root.left) + 1;
-		//ÓÒ×ÓÊ÷
+		//å³å­æ ‘
 		int rightDepth = maxDepth(root.right) + 1;
 		return leftDepth > rightDepth ? leftDepth : rightDepth;
 	}

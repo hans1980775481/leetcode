@@ -1,3 +1,4 @@
+package SymmetricTree.yanxianni;
 
 public class SymmetricTree {
 	public boolean isSymmetric(TreeNode root) {
@@ -5,14 +6,14 @@ public class SymmetricTree {
 	}
 
 	public boolean isMirror(TreeNode t1, TreeNode t2) {
-		//都为空
+		//缁撴潫鏉′欢
 		if (t1 == null && t2 == null) {
 			return true;
 		}
 		if (t1 == null || t2 == null) {
 			return false;
 		}
-		//当前节点值相等，左右子树节点值对称相等
+		//閫掑綊
 		return (t1.val == t2.val) && isMirror(t1.right, t2.left) && isMirror(t1.left, t2.right);
 	}
 
