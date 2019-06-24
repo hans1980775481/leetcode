@@ -24,9 +24,10 @@ QQ
 付费 861589695
 
 ## 题目
-### 第一周，数组
-
-
+### 第一周，字符串
+https://leetcode.com/problems/generate-parentheses/ 生成圆括号  
+https://leetcode.com/problems/valid-parentheses/ 圆括号合法  
+https://leetcode.com/problems/valid-parenthesis-string/ 圆括号合法  
 
 ### 第二周，二叉树
 https://leetcode.com/problems/invert-binary-tree/  
@@ -40,5 +41,5 @@ https://leetcode.com/problems/guess-number-higher-or-lower-ii/  拒绝暴力求�
 
 ### 第四周，链表
 https://leetcode.com/problems/reverse-linked-list/ 链表反转  
-https://leetcode.com/problems/remove-duplicates-from-sorted-list/ 有序链表去重
+https://leetcode.com/problems/remove-duplicates-from-sorted-list/ 有序链表去重  
 https://leetcode.com/problems/merge-two-sorted-lists/  合并有序链表  
