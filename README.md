@@ -25,21 +25,21 @@ QQ
 
 ## 题目
 ### 第一周，字符串
-https://leetcode.com/problems/generate-parentheses/ 生成圆括号  
-https://leetcode.com/problems/valid-parentheses/ 圆括号合法  
-https://leetcode.com/problems/valid-parenthesis-string/ 圆括号合法  
+https://leetcode.com/problems/generate-parentheses/  
+https://leetcode.com/problems/valid-parentheses/ 
+https://leetcode.com/problems/valid-parenthesis-string/ 
 
 ### 第二周，二叉树
 https://leetcode.com/problems/invert-binary-tree/  
 https://leetcode.com/problems/maximum-depth-of-binary-tree/  
 https://leetcode.com/problems/symmetric-tree/
 
-### 第三周，二分查找
-https://leetcode.com/problems/first-bad-version/solution/  拒绝暴力求解，要求之间复杂度 O(log2n)  
-https://leetcode.com/problems/guess-number-higher-or-lower/  拒绝暴力求解，要求之间复杂度 O(log2n)  
-https://leetcode.com/problems/guess-number-higher-or-lower-ii/  拒绝暴力求解，要求之间复杂度 O(log3n)  
+### 第三周，
+https://leetcode.com/problems/first-bad-version/solution/  
+https://leetcode.com/problems/guess-number-higher-or-lower/  
+https://leetcode.com/problems/find-smallest-letter-greater-than-target/     
 
 ### 第四周，链表
-https://leetcode.com/problems/reverse-linked-list/ 链表反转  
-https://leetcode.com/problems/remove-duplicates-from-sorted-list/ 有序链表去重  
-https://leetcode.com/problems/merge-two-sorted-lists/  合并有序链表  
+https://leetcode.com/problems/reverse-linked-list/ 
+https://leetcode.com/problems/remove-duplicates-from-sorted-list/ 
+https://leetcode.com/problems/merge-two-sorted-lists/   
