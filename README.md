@@ -34,7 +34,7 @@ https://leetcode.com/problems/invert-binary-tree/
 https://leetcode.com/problems/maximum-depth-of-binary-tree/   
 https://leetcode.com/problems/symmetric-tree/  
 
-### 第三周，
+### 第三周，二分法
 https://leetcode.com/problems/first-bad-version/solution/    
 https://leetcode.com/problems/guess-number-higher-or-lower/    
 https://leetcode.com/problems/find-smallest-letter-greater-than-target/       
