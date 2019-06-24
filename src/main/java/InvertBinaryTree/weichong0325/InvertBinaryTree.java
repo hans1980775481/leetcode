@@ -4,7 +4,7 @@ package InvertBinaryTree.weichong0325;
  * Create by weichong0325 on 2019/6/12
  * leetcode-226:翻转二叉树
  * 解题思路：
- *
+ * 左右子树进行交换，递归调用
  */
 public class InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {
