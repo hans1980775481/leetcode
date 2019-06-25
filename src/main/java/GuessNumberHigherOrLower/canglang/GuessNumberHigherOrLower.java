@@ -1,4 +1,4 @@
-public class Solution extends GuessGame {
+public class GuessNumberHigherOrLower extends GuessGame {
     public int guessNumber(int n) {
         int mid=n/2;
         int start=1;
