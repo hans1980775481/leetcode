@@ -3,7 +3,10 @@
    @return -1 if my number is lower, 1 if my number is higher, otherwise return 0
       int guess(int num); */
 
-public class Solution extends GuessGame {
+public class Solution {
+    public int guess(int n){
+      return 0;
+    }
     public int guessNumber(int n) {
         int l = 1;
         int r = n;
@@ -21,5 +24,8 @@ public class Solution extends GuessGame {
             }
         }
         return l;
+    }
+    public static void main(String []args) {
+        System.out.println("GuessNumberHigerOrLower");
     }
 }
