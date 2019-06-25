@@ -1,4 +1,7 @@
-public class Solution extends VersionControl {
+public class FirstBadVersion{
+    public boolean isBadVersion(int n){
+      return true;
+    }
     public int firstBadVersion(int n) {
         int left = 1;
         int right = n;
@@ -11,5 +14,9 @@ public class Solution extends VersionControl {
             }
         }
         return left;
+    }
+
+    public static void main(String []args) {
+        System.out.println("FirstBadVersion");
     }
 }
