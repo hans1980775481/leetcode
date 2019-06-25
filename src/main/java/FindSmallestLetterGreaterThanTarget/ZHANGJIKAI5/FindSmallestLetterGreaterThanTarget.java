@@ -9,6 +9,7 @@ public class FindSmallestLetterGreaterThanTarget {
 
     /**
      * 第二次执行（降低时间复杂度的关键是，无需创建Charter再获取hashcode进行比较，int和char可以直接进行比较（在int不超过char的数据范围时））：
+     * 注：二次优化后无需考虑int和char的比较，只进行char的比较即可。
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Find Smallest Letter Greater Than Target.
      * Memory Usage: 37.8 MB, less than 100.00% of Java online submissions for Find Smallest Letter Greater Than Target.
      */
