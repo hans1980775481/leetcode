@@ -70,7 +70,6 @@ public class ReverseLinkedList {
             }
             indexLow=indexLow.next;
         }
-
         return head;
     }
 
