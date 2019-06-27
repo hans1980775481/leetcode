@@ -1,10 +1,10 @@
- public class ListNode {
-     int val;
-     ListNode next;
-     ListNode(int x) { val = x; }
-  }
-
 class Solution {
+	public class ListNode {
+			int val;
+			ListNode next;
+			ListNode(int x) { val = x; }
+
+	}
     public ListNode reverseList(ListNode head) {
         ListNode curr = head;
         ListNode temp = null;
@@ -14,10 +14,10 @@ class Solution {
             temp = curr;
             curr = n;
         }
-        return temp;        
+        return temp;
     }
     public static void main(String []args) {
-        System.out.println("GenerateParentheses");
+        System.out.println("ReverseLinkedList");
     }
 
 }
