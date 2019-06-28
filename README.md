@@ -19,15 +19,27 @@
 https://b23.tv/av55780016/p1
 
 # 加群
-添加群主微信[small_artisan]，回复「LeetCode」。
+QQ   
+免费 607313352  
+付费 861589695
 
 ## 题目
-### 第一周，数组
-https://leetcode.com/problems/invert-binary-tree/  
-https://leetcode.com/problems/maximum-depth-of-binary-tree/  
-https://leetcode.com/problems/symmetric-tree/
+### 第一周，字符串
+https://leetcode.com/problems/generate-parentheses/    
+https://leetcode.com/problems/valid-parentheses/   
+https://leetcode.com/problems/valid-parenthesis-string/ 
 
-### 第二周，二分查找
-https://leetcode.com/problems/first-bad-version/solution/  拒绝暴力求解，要求之间复杂度 O(log2n)  
-https://leetcode.com/problems/guess-number-higher-or-lower/  拒绝暴力求解，要求之间复杂度 O(log2n)  
-https://leetcode.com/problems/guess-number-higher-or-lower-ii/  拒绝暴力求解，要求之间复杂度 O(log3n)  
+### 第二周，二叉树
+https://leetcode.com/problems/invert-binary-tree/   
+https://leetcode.com/problems/maximum-depth-of-binary-tree/   
+https://leetcode.com/problems/symmetric-tree/  
+
+### 第三周，二分法
+https://leetcode.com/problems/first-bad-version/solution/    
+https://leetcode.com/problems/guess-number-higher-or-lower/    
+https://leetcode.com/problems/find-smallest-letter-greater-than-target/       
+
+### 第四周，链表
+https://leetcode.com/problems/reverse-linked-list/   
+https://leetcode.com/problems/remove-duplicates-from-sorted-list/     
+https://leetcode.com/problems/merge-two-sorted-lists/     

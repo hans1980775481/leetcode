@@ -1,3 +1,5 @@
+package InvertBinaryTree.yanxianni;
+
 public class InvertBinaryTree {
 	public TreeNode invertTree(TreeNode root) {
 		//结束条件
