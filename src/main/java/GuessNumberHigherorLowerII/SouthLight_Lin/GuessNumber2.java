@@ -1,6 +1,9 @@
 package GuessNumberHigherorLowerII.SouthLight_Lin;
 
 /**
+ * LeetCode 375号题
+ * 猜数，如果猜错了，就要支付$n的金额，求最少保证猜对的金额
+ *
  * @author SouthLight-Lin on 2019/6/23
  */
 public class GuessNumber2 {
