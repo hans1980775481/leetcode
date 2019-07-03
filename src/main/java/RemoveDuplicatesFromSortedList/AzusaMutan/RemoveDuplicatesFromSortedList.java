@@ -8,27 +8,19 @@ public class RemoveDuplicatesFromSortedList {
             if (head == null) {
                 return head;
             }
-            HashSet<Integer> hashSet = new HashSet<>();
-            ListNode newHead = new ListNode(head.val);
-            hashSet.add(newHead.val);
-            ListNode p = head;
-            ListNode pp = newHead;
-            while(p != null) {
-                if (!hashSet.contains(p.val)) {
-                    hashSet.add(p.val);
-                    ListNode node = new ListNode(p.val);
-                    pp.next = node;
-                    p = p.next;
-                    pp = pp.next;
+            ListNode pc = head;
+            ListNode pn = head.next;
+            while (pn != null) {
+                if (pc.val == pn.val) {
+                    pc.next = pn.next;
                 } else {
-                    p = p.next;
+                    pc = pc.next;
                 }
+                pn = pn.next;
             }
-
-            return newHead;
+            return head;
         }
     }
-
     public class ListNode {
         int val;
         ListNode next;
