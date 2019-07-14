@@ -43,3 +43,9 @@ https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 https://leetcode.com/problems/reverse-linked-list/   
 https://leetcode.com/problems/remove-duplicates-from-sorted-list/     
 https://leetcode.com/problems/merge-two-sorted-lists/     
+
+
+### 第五周，Array
+https://leetcode.com/problems/two-sum/    
+https://leetcode.com/problems/rotate-array/       
+https://leetcode.com/problems/pascals-triangle/   
