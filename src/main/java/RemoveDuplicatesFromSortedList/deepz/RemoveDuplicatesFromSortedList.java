@@ -1,7 +1,7 @@
 package RemoveDuplicatesFromSortedList.deepz;
 
 /**
- * @author 张定平
+ * @author deepsleeping
  * @date 2019/7/15 16:51
  * @description 删除排序链表中的重复元素
  *
