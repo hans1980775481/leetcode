@@ -1,7 +1,5 @@
 package ValidParenthesisString.XMHans;
 
-import org.junit.Test;
-
 import java.util.HashMap;
 import java.util.LinkedList;
 
@@ -46,7 +44,6 @@ public class ValidParenthesisString {
         return true;
     }
 
-    @Test
     public void main(String[] args) {
         if (checkValidString("*(*))")) {
             System.out.println("yes");
